@@ -4,22 +4,30 @@ body{
     margin: 0;
     padding: 0;
 }
-section{
+
+/*=========== top banner part css start=============  */
+.section_main{
     display: flex;
+    margin-bottom: 150px;
 }
 .half_width{
 width: 50%;
+padding-left: 5%;
 }
+
 .half_width h1{
     font-size: 50px;
 }
+
 .half_width .rasel{
-    color: orange;
+    color: orange; 
 }
+
 .half_width p{
     color: dimgray;
     padding-bottom: 10px;
 }
+
 .half_width a{
     text-decoration: none;
     background: linear-gradient(45deg, lightsalmon, tomato);
@@ -27,16 +35,74 @@ width: 50%;
     border-radius: 5px;
     color: white;
     font-weight: 700;
-    
 }
+
 .half_width img{
 width: 80%;
 }
 
-.half_width{
-    padding-left: 5%;
-}
 .top_corner{
     background-image: url(/images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+/*=========== top banner part css end=============  */
+
+/*=========== dream big part css start=============  */
+.half_right{
+    width: 35%;
+    padding-left: 0;
+    text-align: justify;
+}
+.dream_big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+}
+/*=========== dream big part css end=============  */
+
+/*============= experiences part css code start=============  */
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 100px;
+}
+.experience h2{
+    font-size: 35px;
+    padding-left: 20px;
+}
+.half_width h4{
+    color: orange;
+}
+
+.experience_box{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.experience_box h1{
+    font-size: 50px;
+}
+.experience_box h4{
+    color: orange;
+}
+#senior{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#junior{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, indigo, teal);
+    border-image-slice: 1;
+}
+/*============= experiences part css code end=============  */
+
+.footer p{
+    text-align: center;
 }
